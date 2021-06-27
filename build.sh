@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-mvn -DskipTests=true clean package &&  ./target/demo   
+mvn -DskipTests=true -Pnative clean package &&  ./target/demo   
