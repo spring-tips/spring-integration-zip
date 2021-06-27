@@ -11,9 +11,11 @@ import org.springframework.integration.file.dsl.Files;
 import org.springframework.integration.zip.splitter.UnZipResultSplitter;
 import org.springframework.integration.zip.transformer.UnZipTransformer;
 import org.springframework.integration.zip.transformer.ZipTransformer;
+import org.springframework.nativex.hint.TypeHint;
 
 import java.io.File;
 
+@TypeHint(types = org.springframework.messaging.support.GenericMessage.class)
 @SpringBootApplication
 public class Integration55Application {
 
